@@ -1,0 +1,69 @@
+name: Hitchcake
+description: Tinder app made with Flutter
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  numberpicker: ^2.1.1
+  image_picker: ^0.8.0+4
+  firebase_core: ^2.13.0
+  firebase_core_platform_interface: ^4.8.0
+  cloud_firestore: ^4.7.1
+  firebase_storage: ^11.2.1
+  firebase_auth: ^4.6.1
+  flutterfire_cli: ^0.2.7
+  percent_indicator: ^3.0.1
+  shared_preferences: ^2.0.6
+  provider: ^5.0.0
+  intl: ^0.17.0
+  dio: ^5.1.2
+  http: ^0.13.6
+  flutter_stripe: ^9.2.0
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - images/.env
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito-Regular.ttf
+        - asset: fonts/Nunito-SemiBold.ttf
+        - asset: fonts/Nunito-Bold.ttf
+
+
+flutter_icons:
+
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/logo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "images/logo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "images/logo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "images/logo.png"

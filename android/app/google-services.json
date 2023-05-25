@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "32291529928",
+    "project_id": "ball-n-ball",
+    "storage_bucket": "ball-n-ball.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32291529928:android:93b2f4199b3a41341631fd",
+        "android_client_info": {
+          "package_name": "com.batnball.bat_n_ball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32291529928-nr8k2955ci30og6tphlfvf57nrdhhtsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWsfDJQd3tD3DZCb6yYI2riniVbEwbo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32291529928-nr8k2955ci30og6tphlfvf57nrdhhtsl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "32291529928-0knau2jo91qg93d049581k4f4lnq4g9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hitchcake.hitchcake"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32291529928:android:e7f5ccca3abdd39d1631fd",
+        "android_client_info": {
+          "package_name": "com.fredrikbogg.hitchcake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32291529928-nr8k2955ci30og6tphlfvf57nrdhhtsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWsfDJQd3tD3DZCb6yYI2riniVbEwbo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32291529928-nr8k2955ci30og6tphlfvf57nrdhhtsl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "32291529928-0knau2jo91qg93d049581k4f4lnq4g9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hitchcake.hitchcake"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32291529928:android:c7f2255ebbbd0d3e1631fd",
+        "android_client_info": {
+          "package_name": "com.hitchcake.hitchcake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32291529928-nr8k2955ci30og6tphlfvf57nrdhhtsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRWsfDJQd3tD3DZCb6yYI2riniVbEwbo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32291529928-nr8k2955ci30og6tphlfvf57nrdhhtsl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "32291529928-0knau2jo91qg93d049581k4f4lnq4g9e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hitchcake.hitchcake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
