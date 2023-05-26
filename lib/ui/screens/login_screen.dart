@@ -1,3 +1,4 @@
+import 'package:Hitchcake/ui/screens/register_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -60,28 +61,28 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Padding(
             padding: kDefaultPadding,
             child: Container(
-              margin: EdgeInsets.only(bottom: 40),
+              margin: const EdgeInsets.only(bottom: 40),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  SizedBox(
+                  const SizedBox(
                     height: 60,
                   ),
                   Center(child: AppIconTitle()),
-                  SizedBox(
+                  const SizedBox(
                     height: 80,
                   ),
                   Text(
                     'Login',
                     style: Theme.of(context).textTheme.headline3,
                   ),
-                  SizedBox(height: 40),
+                  const SizedBox(height: 40),
                   BorderedTextField(
                     labelText: 'Email',
                     keyboardType: TextInputType.emailAddress,
                     onChanged: (value) => _inputEmail = value,
                   ),
-                  SizedBox(height: 5),
+                  const SizedBox(height: 22),
                   BorderedTextField(
                     labelText: 'Password',
                     obscureText: true,
@@ -92,7 +93,23 @@ class _LoginScreenState extends State<LoginScreen> {
                   RoundedButton(
                       text: 'LOGIN',
                       color: Colors.white,
-                      onPressed: () => loginPressed())
+                      onPressed: () => loginPressed()),
+                  const SizedBox(height: 10),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.pop(context);
+                      Navigator.pushNamed(context, RegisterScreen.id);
+                    },
+                    child: const Align(
+                      alignment: Alignment.center,
+                      child: Text(
+                        'Create Account',
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 96, 60, 60),
+                            fontSize: 15),
+                      ),
+                    ),
+                  )
                 ],
               ),
             ),
